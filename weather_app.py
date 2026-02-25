@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 
 # Function to fetch weather data from OpenWeather API
-def fetch_data()
+def fetch_data():
     # Send GET request to weather API
     response = requests.get(URL)
     # Convert API response to JSON format
